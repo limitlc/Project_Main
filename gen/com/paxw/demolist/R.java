@@ -170,34 +170,40 @@ containing a value of this type.
         public static final int mv=0x7f020006;
     }
     public static final class id {
-        public static final int action_settings=0x7f090008;
-        public static final int id_appear=0x7f090003;
+        public static final int action_settings=0x7f09000b;
+        public static final int back=0x7f090004;
+        public static final int drawerLayout=0x7f090003;
+        public static final int force=0x7f090005;
+        public static final int id_appear=0x7f090006;
         public static final int id_ball=0x7f090001;
-        public static final int id_change_appear=0x7f090004;
-        public static final int id_change_disappear=0x7f090006;
+        public static final int id_change_appear=0x7f090007;
+        public static final int id_change_disappear=0x7f090009;
         public static final int id_container=0x7f090000;
-        public static final int id_disappear=0x7f090005;
-        public static final int id_mv=0x7f090007;
+        public static final int id_disappear=0x7f090008;
+        public static final int id_mv=0x7f09000a;
         public static final int pie=0x7f090002;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int activity_progress_bar_pai=0x7f030001;
-        public static final int anim_set=0x7f030002;
-        public static final int layout_animator=0x7f030003;
-        public static final int object_animator=0x7f030004;
-        public static final int view_animator=0x7f030005;
-        public static final int xml_for_anim=0x7f030006;
+        public static final int activity_slidemenu=0x7f030002;
+        public static final int anim_set=0x7f030003;
+        public static final int layout_animator=0x7f030004;
+        public static final int object_animator=0x7f030005;
+        public static final int view_animator=0x7f030006;
+        public static final int xml_for_anim=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
         public static final int progress_bar_pai=0x7f080001;
+        public static final int slidemenu=0x7f080002;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int hello_world=0x7f060002;
         public static final int title_activity_progress_bar_pai=0x7f060003;
+        public static final int title_activity_slidemenu=0x7f060004;
     }
     public static final class style {
         /** 

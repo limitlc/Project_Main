@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+  
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff00"
+            android:layout_gravity="left"
+            android:orientation="vertical" >
+        </LinearLayout>
+          <LinearLayout
+            android:id="@+id/force"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+               android:background="#ffffff"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+    
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

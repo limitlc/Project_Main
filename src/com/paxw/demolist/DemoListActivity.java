@@ -6,6 +6,7 @@ import java.util.List;
 
 import com.paxw.demolist.anim.ShuXingDongActivity;
 import com.paxw.demolist.progressbar.ProgressBarPai;
+import com.paxw.demolist.slidingmenu.SlidemenuActivity;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -17,7 +18,7 @@ import android.widget.ListView;
 
 public class DemoListActivity extends ListActivity {
 	private List<String> mData = new ArrayList<String>(Arrays.asList(
-			"属性动画","progress"));
+			"属性动画","progress","侧滑菜单"));
 	private ListAdapter mAdapter;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,13 +30,15 @@ public class DemoListActivity extends ListActivity {
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		Intent intent = null;
-		switch (position)
-		{
+		switch (position) {
 		case 0:
 			intent = new Intent(this, ShuXingDongActivity.class);
 			break;
 		case 1:
 			intent = new Intent(this, ProgressBarPai.class);
+			break;
+		case 2:
+			intent = new Intent(this, SlidemenuActivity.class);
 			break;
 		}
 		startActivity(intent);
